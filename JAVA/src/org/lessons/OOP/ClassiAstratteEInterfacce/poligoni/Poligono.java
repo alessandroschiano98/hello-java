@@ -1,7 +1,6 @@
 package org.lessons.OOP.ClassiAstratteEInterfacce.poligoni;
 
 public abstract class Poligono {
-
     private int numeroLati;
     private String nome;
 
@@ -9,7 +8,7 @@ public abstract class Poligono {
         this.numeroLati = numeroLati;
         this.nome = nome;
     }
-
+    
     public int getNumeroLati(){
         return this.numeroLati;
     }
@@ -22,13 +21,11 @@ public abstract class Poligono {
         return this.nome;
     }
 
-    public void setNome (String nome){
+    public void setNome(String nome){
         this.nome = nome;
-
     }
-    
+
     public abstract double calcolaPerimetro();
 
     public abstract double calcolaArea();
-
 }
