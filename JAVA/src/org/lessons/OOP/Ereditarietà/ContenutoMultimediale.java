@@ -25,7 +25,7 @@ public class ContenutoMultimediale {
     }
 
     public String[] getAttori(){
-        // % aggiungo logica
+        // ! aggiungo logica
         return this.attori;
     } 
 
